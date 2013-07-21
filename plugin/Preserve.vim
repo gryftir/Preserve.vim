@@ -13,6 +13,7 @@ endfunction
 "examples:
 " strip trailing whitespace with mapping  nmap _$ :call Preserve("%s/\\s\\+$//e")<CR>
 " fix indentation from command line :call Preserve("normal gg=G")
+"rot13 whole file :call Preserve("ggg?G")
 
 "my current mappings, comment out if you don't want to use them
 "fix indentation
